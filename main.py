@@ -1,6 +1,6 @@
 import logging
 from aiogram import Bot, Dispatcher, executor, types
-
+import asyncio
 
 import config as cfg
 import markups as nav
