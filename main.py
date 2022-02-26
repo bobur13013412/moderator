@@ -37,5 +37,4 @@ async def mess_handler(message:types.Message):
     else:
         await message.answer("Xabar yozish uchun kanalga a\'zo bo\'ling",reply_markup=nav.channelMenu)
         await message.delete()
-if __name__ =="__main__":
-    executor.start_polling(dp, skip_updates= True)
+asyncio.run(main())
